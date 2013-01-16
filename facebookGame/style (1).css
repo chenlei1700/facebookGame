@@ -1,0 +1,278 @@
+@charset "utf-8";
+/* CSS Document */
+
+/****************************************
+		1. General Setting 
+*****************************************/
+
+html, body, div, span, applet, object, iframe, strong,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, legend, caption, 
+tbody, tfoot, thead, table, label, tr, th, td{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: 'Osaka','Meiryo','sans-serif';
+	vertical-align: baseline;
+	list-style:none;
+	}
+	
+.clear{ clear: both; line-height: 0}
+
+/****************************************
+		2. Basic Layout 
+*****************************************/
+
+html,body{height: 100%;}
+
+#wrapper_all{
+  height:100%;
+    width:100%;
+}
+#wrapper{
+	height:100%;
+	width:800px;
+	float:left;
+    margin-top:50px;
+}
+
+#container_top{
+	height:380px;
+	width:760px;
+	margin-left:20px;
+	margin-top:20px;
+	margin-bottom:0px;
+}
+
+#container_bottom{
+	height:380px;
+	width:760px;
+	margin-left:20px;
+}
+
+.user_1{
+	height:340px;
+	width:340px;
+	float:left;
+	margin-left:20px;
+	background-color:#FCC;
+	-webkit-border-top-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+}
+
+.user_sub_L{
+	height:340px;
+	width:220px;
+	float:left;
+	}
+
+.user_sub_R{
+	height:340px;
+	width:115px;
+	float:right;
+	}
+
+.user_2{
+	height:340px;
+	width:340px;
+	float:right;
+	margin-right:20px;
+	background-color:#FC6;
+	-webkit-border-top-right-radius: 20px;
+	-moz-border-radius-topright: 20px;
+}
+
+.user_3{
+	height:340px;
+	width:340px;
+	float:left;
+	margin-left:20px;
+	background-color:#6CF;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-bottomleft: 20px;
+
+}
+
+.user_4{
+	height:340px;
+	width:340px;
+	float:right;
+	margin-right:20px;
+	background-color:#6F6;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+}
+
+.user_img{
+	height:180px;
+	width:180px;
+	float:left;
+	background-color:#CCC;
+	margin-top:20px;
+	margin-left:20px;
+}
+
+.user_desc{
+	height:125px;
+	width:105px;
+	float:right;
+	background-color:#FFF;
+	margin-top:20px;
+	margin-right:20px;
+	border:1px solid #dbdbdb;
+-webkit-border-radius:7px;
+-moz-border-radius:7px;
+color: #000;
+font-weight:bold;
+font-size:medium;
+	}
+	
+.user_status{
+	height:25px;
+	width:105px;
+	float:right;
+	margin-top:20px;
+	margin-right:20px;
+	background-color:#CCC;
+	}
+
+.user_label_L{
+	height:25px;
+	width:50px;
+	background-color:#00F;
+	color:#FFF;
+	float:left;
+	margin-top:20px;
+	font-weight:bold;
+font-size:medium;
+}
+
+.user_input_L{
+	height:25px;
+	width:50px;
+	float:left;
+	margin-top:8px;
+	color: #000;
+font-weight:bold;
+font-size:medium;
+}
+
+.user_input_R{
+	height:25px;
+	width:50px;
+	float:right;
+	margin-top:8px;
+	color: #000;
+font-weight:bold;
+font-size:medium;
+}
+
+.user_input_table{
+	margin-left:20px;
+	
+	}
+.user_label_R{
+	height:25px;
+	width:50px;
+	background-color:#00F;
+	color:#FFF;
+	float:right;
+	margin-top:20px;
+	font-weight:bold;
+font-size:medium;
+}
+.button{
+	margin-top:10px;
+	width:50px;
+	display:block;
+    float:right;
+    background-color:#565656;
+    border:1px solid #dedede;
+    border-top:1px solid #eee;
+    border-left:1px solid #eee;   
+    font-size:100%;
+    line-height:130%;
+    text-decoration:none;
+    font-weight:bold;
+    color:#f5f5f5;
+    cursor:pointer;
+	}
+
+.button_start{
+	margin-left:０;
+	width:75px;
+	display: inline-block;
+    background-color:#565656;
+    border:1px solid #dedede;
+    border-top:1px solid #eee;
+    border-left:1px solid #eee;   
+    font-size:100%;
+    line-height:130%;
+    text-decoration:none;
+    font-weight:bold;
+	font-size:large;
+    color:#f5f5f5;
+    cursor:pointer;
+    float:left;
+    margin-top:20px;
+	}
+.title_img{
+	margin-left:40px;
+}
+
+.game_status{
+    margin-top:20px;
+    font-size:large;
+    font-weight:bold;
+}
+
+#header_L{
+	float:left;
+	width:510px;
+	margin-left:40px;
+	}
+	
+#header_R{
+	float:right;
+	margin-right:40px;
+	}
+
+#footer_L{
+	float:left;
+	margin-left:40px;
+	}
+#footer_R{
+	float:right;
+	width:510px;
+	margin-right:40px;
+	}
+.button_reset{
+	margin-left:20px;
+	width:75px;
+	display:inline-block;
+    background-color:#565656;
+    border:1px solid #dedede;
+    border-top:1px solid #eee;
+    border-left:1px solid #eee;   
+    font-size:100%;
+    line-height:130%;
+    text-decoration:none;
+    font-weight:bold;
+	font-size:large;
+    color:#f5f5f5;
+    cursor:pointer;
+	float:right;
+    margin-top:20px;
+	}
+
+#sidebar{
+  float:right;
+  padding-top:100px;
+}
